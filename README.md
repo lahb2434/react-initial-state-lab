@@ -16,7 +16,7 @@ So, before we continue, your first task is to create a simple components
 for both `ImageSlider` and `Bomb`:
 
 - In the `src/ImageSlider.js` file, create an `ImageSlider` React component.
-- In the `src/Bomb.js` file, create a `Bomb` React component.
+- In the `src/Bomb.js` file, create a `Bomb` React dcomponent.
 
 These components will need a valid `render` method to allow for our tests to
 properly import and use them. Now, if you've created valid components, you should
