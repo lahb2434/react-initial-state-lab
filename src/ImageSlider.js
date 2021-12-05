@@ -20,7 +20,7 @@ class ImageSlider extends React.Component {
       <div onClick={this.increment} >
         {this.state.currentSlideIndex === 10 ? null : `I am on slide ${this.state.currentSlideIndex}`}
       </div>
-      {<Bomb  count={this.state.currentBombCount}/>}
+      <Bomb  count={this.state.currentBombCount}/>
     </div>
   }
 }

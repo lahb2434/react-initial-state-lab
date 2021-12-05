@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 5,
+    "passes": 1,
+    "pending": 0,
+    "failures": 4,
+    "start": "2021-12-05T21:13:50.811Z",
+    "end": "2021-12-05T21:13:50.895Z",
+    "duration": 84
+  },
+  "tests": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'I am on slide 0<Bomb />' to equal 'I am on slide 0'",
+        "showDiff": true,
+        "actual": "I am on slide 0<Bomb />",
+        "expected": "I am on slide 0",
+        "stack": "AssertionError: expected 'I am on slide 0<Bomb />' to equal 'I am on slide 0'\n    at Context.<anonymous> (test/index-test.js:23:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'secondsLeft' of null\n    at ShallowWrapper.state (node_modules/enzyme/build/ShallowWrapper.js:984:24)\n    at Context.<anonymous> (test/index-test.js:32:20)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot read property 'secondsLeft' of null"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'undefined seconds left before I go boom!' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": "undefined seconds left before I go boom!",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected 'undefined seconds left before I go boom!' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'undefined seconds left before I go boom!' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": "undefined seconds left before I go boom!",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected 'undefined seconds left before I go boom!' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'I am on slide 0<Bomb />' to equal 'I am on slide 0'",
+        "showDiff": true,
+        "actual": "I am on slide 0<Bomb />",
+        "expected": "I am on slide 0",
+        "stack": "AssertionError: expected 'I am on slide 0<Bomb />' to equal 'I am on slide 0'\n    at Context.<anonymous> (test/index-test.js:23:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'secondsLeft' of null\n    at ShallowWrapper.state (node_modules/enzyme/build/ShallowWrapper.js:984:24)\n    at Context.<anonymous> (test/index-test.js:32:20)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot read property 'secondsLeft' of null"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'undefined seconds left before I go boom!' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": "undefined seconds left before I go boom!",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected 'undefined seconds left before I go boom!' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'undefined seconds left before I go boom!' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": "undefined seconds left before I go boom!",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected 'undefined seconds left before I go boom!' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
